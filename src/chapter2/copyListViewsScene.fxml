@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="208.0" prefWidth="308.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chapter2.CopyListViewsSceneController">
+   <children>
+      <AnchorPane layoutX="6.0" layoutY="5.0" prefHeight="224.0" prefWidth="370.0">
+         <children>
+            <ListView fx:id="mainListView" layoutX="14.0" layoutY="12.0" prefHeight="201.0" prefWidth="129.0" />
+            <ListView fx:id="outputListView" layoutX="227.0" layoutY="12.0" prefHeight="201.0" prefWidth="129.0" />
+            <Button fx:id="copyButton" layoutX="149.0" layoutY="100.0" mnemonicParsing="false" onAction="#copyButtonHandle" text="Copy &gt;&gt;&gt;" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

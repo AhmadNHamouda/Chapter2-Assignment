@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="225.0" prefWidth="261.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="chapter2Q3.ColorSceneController">
+   <children>
+      <AnchorPane layoutX="9.0" layoutY="17.0" prefHeight="191.0" prefWidth="243.0">
+         <children>
+            <ComboBox fx:id="comboBox" layoutX="119.0" layoutY="71.0" onAction="#comboBoxHandle" prefHeight="25.0" prefWidth="117.0" />
+            <Label layoutX="7.0" layoutY="73.0" prefHeight="21.0" prefWidth="110.0" text="Available Colors">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="okButton" layoutX="117.0" layoutY="121.0" mnemonicParsing="false" onAction="#okButtonHandle" prefHeight="25.0" prefWidth="52.0" text="OK" />
+            <Button fx:id="cancelButton" layoutX="184.0" layoutY="121.0" mnemonicParsing="false" onAction="#cancelButtonHandle" text="Cancel" />
+            <Line endX="100.0" layoutX="122.0" layoutY="62.0" startX="-100.0" />
+            <Label layoutX="35.0" layoutY="23.0" prefHeight="21.0" prefWidth="192.0" text="Select the Colors from the list" textAlignment="CENTER" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
